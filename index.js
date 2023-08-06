@@ -4,7 +4,7 @@ form.addEventListener('submit',function(event){
     event.preventDefault();
     alert("form submitted");
     document.querySelector("button").setAttribute("href" , "");
-    //window.open ('https://ex.com' ,'_blank');
+    window.open ('https://ex.com' ,'_blank');
    // window.open(form.action, 'Form submitted sucessfully');
 });
 
